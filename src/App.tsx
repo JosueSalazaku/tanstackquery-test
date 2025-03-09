@@ -1,13 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import FetchUsers from "./components/fetchUsers";
 
 function App() {
-
   return (
     <main>
-      Hello
+      <FetchUsers />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
